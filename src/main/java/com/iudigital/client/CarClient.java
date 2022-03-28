@@ -19,7 +19,7 @@ import org.springframework.web.client.RestTemplate;
 public class CarClient {
 
     private final RestTemplate restTemplate;
-    private final String URL = "http://localhost:8005/api/car";
+    private static final String URL = "http://localhost:8005/api/car";
 
     public CarClient() {
 
